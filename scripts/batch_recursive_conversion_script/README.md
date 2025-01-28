@@ -17,7 +17,10 @@ This script will convert from one media files to another media file recursively 
 11. After completion of the conversion. It will wait for user input. That you have to press any key to close the script after completion.
 12. To skip/stop conversion for the current conversion file, It might required `q` in your keyboard to be pressed or read command help during execution.
 
-Note: *Here, for an example, The command uses flag `-map_metadata 0` to exclude the meta data from the source files.*
+Note: 
+
+- Here, for an example, The command uses flag `-map_metadata 0` to exclude the meta data from the source files.
+- Here, `-qscale:a` ranges from `0 - 5`, `0` - highest bit rate, `5`-low bps.
 
 **For recursive conversion, Consider `ffmpeg_recursive_conversion.bat` and follow above steps.**
 
