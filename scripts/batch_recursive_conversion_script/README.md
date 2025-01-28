@@ -19,7 +19,7 @@ This script will convert from one media files to another media file recursively 
 
 Note: *Here, for an example, The command uses flag `-map_metadata 0` to exclude the meta data from the source files.*
 
-To compare your converted files in different aspect then refer [File Comparison Script](../README.md)
+To compare your converted files in different aspect then refer [File Comparison Script](../file_comparison_script/README.md)
 
 ## &#9873; Disclaimer
 
