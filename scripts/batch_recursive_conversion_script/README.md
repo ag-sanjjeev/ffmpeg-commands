@@ -19,7 +19,21 @@ This script will convert from one media files to another media file recursively 
 
 Note: *Here, for an example, The command uses flag `-map_metadata 0` to exclude the meta data from the source files.*
 
+**For recursive conversion, Consider `ffmpeg_recursive_conversion.bat` and follow above steps.**
+
 To compare your converted files in different aspect then refer [File Comparison Script](../file_comparison_script/README.md)
+
+## &#9873; Others
+
+Note: *Others directory scripts are created for different purpose. Review the code before proceed. This is separate batch script and not related with `ffmpeg_recursive_conversion.bat`.*
+
+This directory contains `oversized_file_conversion_again.bat` and `ffmpeg_128kbps_conversion.bat`. Refer the commands and script before proceed. 
+- `oversized_file_conversion_again.bat` file:
+	- This script compares and creates another batch script for over sized converted files.
+	- This will create another batch script, which has commands that delete over sized existing converted files and reconvert again.
+- `ffmpeg_128kbps_conversion.bat` file:
+	- This is an example script that convert media files into `.mp3` files
+	- It converts files with fixed bit-rates of 128kbps.
 
 ## &#9873; Disclaimer
 
